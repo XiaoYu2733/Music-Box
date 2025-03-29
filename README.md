@@ -4,6 +4,7 @@
 
 理论只要是音游都可以使用 支持键位范围：15 21
 
-#QQ交流群：325031618 Telegram：https://t.me/XiaoYu_Chat
+# QQ交流群：325031618 
+# Telegram：https://t.me/XiaoYu_Chat
 
 # 此软件免费，请勿进行倒卖以及非法和商业用途
