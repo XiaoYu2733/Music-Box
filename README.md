@@ -1,4 +1,4 @@
-7<div align="center">
+<div align="center">
     <h1 > NewMusicBox </h1>
 
 [![Telegram](https://img.shields.io/static/v1?label=Telegram&message=Channel&color=0088cc)](https://t.me/xiaoyu7533)
