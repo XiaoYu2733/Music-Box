@@ -1,0 +1,66 @@
+.class public final La/b$a;
+.super Ld4/j;
+.source "SourceFile"
+
+# interfaces
+.implements Lc4/a;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = La/b;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ld4/j;",
+        "Lc4/a<",
+        "La/a;",
+        ">;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final e:La/b$a;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .registers 1
+
+    new-instance v0, La/b$a;
+
+    invoke-direct {v0}, La/b$a;-><init>()V
+
+    sput-object v0, La/b$a;->e:La/b$a;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .registers 2
+
+    const/4 v0, 0x0
+
+    invoke-direct {p0, v0}, Ld4/j;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .registers 2
+
+    new-instance v0, La/a;
+
+    invoke-direct {v0}, La/a;-><init>()V
+
+    return-object v0
+.end method
