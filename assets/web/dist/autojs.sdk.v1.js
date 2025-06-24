@@ -44,13 +44,6 @@
             arguments: request.args,
         };
         let result;
-        try {
-            result = handler(event, ...event.arguments);
-        }
-        catch (e) {
-            sendResponse(request, undefined, e);
-            return;
-        }
         if (isPromise(request)) {
             result.then((r) => {
                 sendResponse(request, r);
