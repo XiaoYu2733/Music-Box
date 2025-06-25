@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:qqskin="http://qq.com"
+    android:src="@7f020183"
+    android:antialias="true"
+    android:dither="true"
+    android:tileMode="disabled"
+    qqskin:isNeedScale="true" />
