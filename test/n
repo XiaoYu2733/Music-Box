@@ -1,3 +1,4 @@
 fabric-identifier=com.amazonaws.aws-android-sdk-core
 fabric-version=2.15.2
 fabric-build-type=binary
+test
