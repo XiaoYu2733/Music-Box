@@ -167,3 +167,4 @@ message SignalMessage {
     int32  SessionType      = 7; // 会话类型
     int32  SerialNumber     = 8; // 信令消息序号
 }
+test
