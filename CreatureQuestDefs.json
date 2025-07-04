@@ -1,0 +1,130 @@
+[
+    {
+        "name": "basicCrab_01",
+        "phase01": "basicCrabWave01",
+        "phase02": "",
+        "phase03": "",
+        "phase04": "",
+        "phase05": ""
+    },
+    {
+        "name": "basicCrab_02",
+        "phase01": "basicCrabWave01",
+        "phase02": "basicCrabWave02",
+        "phase03": "basicCrabWave03",
+        "phase04": "",
+        "phase05": ""
+    },
+    {
+        "name": "basicCrab_03",
+        "phase01": "basicCrabWave01",
+        "phase02": "basicCrabWave02",
+        "phase03": "basicCrabWave04",
+        "phase04": "basicCrabWave03",
+        "phase05": "basicCrabWave05"
+    },
+    {
+        "name": "creatureQuest_everything",
+        "phase01": "flyingMantaWave01",
+        "phase02": "hoveringJellyFishWave01",
+        "phase03": "flippedCrabWave01",
+        "phase04": "basicCrabWave01",
+        "phase05": "darkplantTrapped01"
+    },
+    {
+        "name": "darkplantTrapped_01",
+        "phase01": "darkplantTrapped01",
+        "phase02": "",
+        "phase03": "",
+        "phase04": "",
+        "phase05": ""
+    },
+    {
+        "name": "darkplantTrapped_02",
+        "phase01": "darkplantTrapped01",
+        "phase02": "darkplantTrapped02",
+        "phase03": "darkplantTrapped03",
+        "phase04": "",
+        "phase05": ""
+    },
+    {
+        "name": "darkplantTrapped_03",
+        "phase01": "darkplantTrapped01",
+        "phase02": "darkplantTrapped02",
+        "phase03": "darkplantTrapped04",
+        "phase04": "darkplantTrapped03",
+        "phase05": "darkplantTrapped05"
+    },
+    {
+        "name": "flippedCrab_01",
+        "phase01": "flippedCrabWave01",
+        "phase02": "",
+        "phase03": "",
+        "phase04": "",
+        "phase05": ""
+    },
+    {
+        "name": "flippedCrab_02",
+        "phase01": "flippedCrabWave01",
+        "phase02": "flippedCrabWave02",
+        "phase03": "flippedCrabWave03",
+        "phase04": "",
+        "phase05": ""
+    },
+    {
+        "name": "flippedCrab_03",
+        "phase01": "flippedCrabWave01",
+        "phase02": "flippedCrabWave02",
+        "phase03": "flippedCrabWave04",
+        "phase04": "flippedCrabWave03",
+        "phase05": "flippedCrabWave05"
+    },
+    {
+        "name": "flyingManta_01",
+        "phase01": "flyingMantaWave01",
+        "phase02": "",
+        "phase03": "",
+        "phase04": "",
+        "phase05": ""
+    },
+    {
+        "name": "flyingManta_02",
+        "phase01": "flyingMantaWave01",
+        "phase02": "flyingMantaWave02",
+        "phase03": "flyingMantaWave03",
+        "phase04": "",
+        "phase05": ""
+    },
+    {
+        "name": "flyingManta_03",
+        "phase01": "flyingMantaWave01",
+        "phase02": "flyingMantaWave02",
+        "phase03": "flyingMantaWave04",
+        "phase04": "flyingMantaWave03",
+        "phase05": "flyingMantaWave05"
+    },
+    {
+        "name": "hoveringJellyFish_01",
+        "phase01": "hoveringJellyFishWave01",
+        "phase02": "",
+        "phase03": "",
+        "phase04": "",
+        "phase05": ""
+    },
+    {
+        "name": "hoveringJellyFish_02",
+        "phase01": "hoveringJellyFishWave01",
+        "phase02": "hoveringJellyFishWave02",
+        "phase03": "hoveringJellyFishWave03",
+        "phase04": "",
+        "phase05": ""
+    },
+    {
+        "name": "hoveringJellyFish_03",
+        "phase01": "hoveringJellyFishWave01",
+        "phase02": "hoveringJellyFishWave02",
+        "phase03": "hoveringJellyFishWave04",
+        "phase04": "hoveringJellyFishWave03",
+        "phase05": "hoveringJellyFishWave05"
+    }
+]
