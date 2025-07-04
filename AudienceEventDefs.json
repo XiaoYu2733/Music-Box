@@ -1,0 +1,112 @@
+[
+    {
+        "audience_emojis": [
+            "wow",
+            "heart",
+            "cry",
+            "lightstick"
+        ],
+        "emoji_brightness": 1.0,
+        "emoji_shout_scale": 1.0,
+        "reservation_event_type": "Aurora"
+    },
+    {
+        "audience_emojis": [
+            "wow",
+            "heart",
+            "cry",
+            "lightstick"
+        ],
+        "emoji_brightness": 1.0,
+        "emoji_shout_scale": 1.0,
+        "reservation_event_type": "DaysOfBloom"
+    },
+    {
+        "audience_emojis": [
+            "wow",
+            "heart",
+            "cry",
+            "lightstick"
+        ],
+        "emoji_brightness": 1.0,
+        "emoji_shout_scale": 1.0,
+        "reservation_event_type": "DaysOfRainbow"
+    },
+    {
+        "audience_emojis": [
+            "wow",
+            "heart",
+            "cry",
+            "lightstick"
+        ],
+        "emoji_brightness": 1.0,
+        "emoji_shout_scale": 1.0,
+        "reservation_event_type": "MaskRitual_01"
+    },
+    {
+        "audience_emojis": [
+            "wow",
+            "heart",
+            "cry",
+            "lightstick"
+        ],
+        "emoji_brightness": 1.0,
+        "emoji_shout_scale": 1.0,
+        "reservation_event_type": "MaskRitual_02"
+    },
+    {
+        "audience_emojis": [
+            "wow",
+            "heart",
+            "cry",
+            "lightstick"
+        ],
+        "emoji_brightness": 1.0,
+        "emoji_shout_scale": 1.0,
+        "reservation_event_type": "MaskRitual_03"
+    },
+    {
+        "audience_emojis": [
+            "wow",
+            "heart",
+            "cry",
+            "lightstick"
+        ],
+        "emoji_brightness": 1.0,
+        "emoji_shout_scale": 1.0,
+        "reservation_event_type": "MaskRitual_04"
+    },
+    {
+        "audience_emojis": [
+            "wow",
+            "heart",
+            "cry",
+            "lightstick"
+        ],
+        "emoji_brightness": 1.0,
+        "emoji_shout_scale": 1.0,
+        "reservation_event_type": "MaskRitual_05"
+    },
+    {
+        "audience_emojis": [
+            "wow",
+            "heart",
+            "cry",
+            "lightstick"
+        ],
+        "emoji_brightness": 1.0,
+        "emoji_shout_scale": 1.0,
+        "reservation_event_type": "SkyFest_DeveloperQA"
+    },
+    {
+        "audience_emojis": [
+            "wow",
+            "heart",
+            "cry",
+            "lightstick"
+        ],
+        "emoji_brightness": 1.0,
+        "emoji_shout_scale": 1.0,
+        "reservation_event_type": "SkyFest_MainStage"
+    }
+]
