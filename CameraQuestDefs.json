@@ -1,0 +1,25 @@
+[
+    {
+        "name": "crab_sunlight",
+        "quest_id": "dosunlight_bonus_1",
+        "scheduled_event": "global_summer",
+        "subject_mesh_names": [
+            "CharCrabBAnim",
+            "CrabA",
+            "Crab_01",
+            "Crab_02",
+            "Crab_03",
+            "Crab_04",
+            "CrabRock_01",
+            "CharSkyKid_Prop_AP17Crab",
+            "CrabCenter_03",
+            "CrabPlush",
+            "CrabPlushLow",
+            "Crabbit_Alice",
+            "Crabseat"
+        ],
+        "subject_model_names": [
+            "CharCrabBAnimPersistent"
+        ]
+    }
+]
