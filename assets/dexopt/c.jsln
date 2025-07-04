@@ -1,0 +1,69 @@
+-------------------------------------------------------------------------------
+-- Notes:  Lists all the resources that are loaded for the Core modules. This
+--         file should remain as short as possible to minimize load times.
+--         These resources may be reordered to ensure that important resources
+--         are available first.
+--
+-- Author: Mike Lester
+-- Date C: 10-02-2016
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+-- SCRIPTS
+-------------------------------------------------------------------------------
+
+-- Hotloading
+resource "Script" "DebugFunctions"	{ source = "Scripts/DebugFunctions.lua", stripDebug = false }
+
+-- Intro level selection
+resource "Script" "LevelSelect"		{ source = "Scripts/LevelSelect.lua", stripDebug = false, autoRun = true }
+resource "Script" "LoadLevel"		{ source = "Scripts/LoadLevel.lua", stripDebug = false, autoRun = true }
+
+-------------------------------------------------------------------------------
+-- FONTS
+-------------------------------------------------------------------------------
+
+resource "Font" "Arial32"    { source = "Arial32.fnt", image = "Arial32" }
+resource "Font" "Mono32"     { source = "Consolas32.fnt", image = "Consolas32" }
+
+-------------------------------------------------------------------------------
+-- SHADERS
+-------------------------------------------------------------------------------
+
+-- Post processing shaders
+resource "Shader" "Resample"					{ vs = "Resample.vert", fs = "Resample.frag" }
+
+-- this doesn't need a frag shader, but Vulkan Mali can't handle
+resource "Shader" "VisibilityMeshDraw"		    { vs = "VisibilityMeshDraw.vert", fs="VisibilityMeshDraw.frag", defines="" }
+
+-- FragSBO can only use writeable SSBO in fragment shader for Android Mali
+resource "Shader" "VisibilityQuery"		   	    { vs = "VisibilityQuery.vert", defines="NO_OUTPUTS_SSBO" }
+resource "Shader" "VisibilityQueryFragSSBO"		{ vs = "VisibilityQuery.vert", fs = "VisibilityQuery.frag", defines="FRAG_SSBO" }
+
+resource "Shader" "VisibilityQueryMin"		    { vs = "VisibilityQuery.vert", defines="NO_OUTPUTS_SSBO SAMPLER_MINMAX" }
+resource "Shader" "VisibilityQueryMinFragSSBO"  { vs = "VisibilityQuery.vert", fs = "VisibilityQuery.frag", defines="FRAG_SSBO SAMPLER_MINMAX" }
+
+resource "Shader" "VisibilityDownMin"			{ vs = "QuadFS.vert", fs = "DepthDownsample.frag", defines="TO_HALF SAMPLER_MINMAX" }
+resource "Shader" "VisibilityDown"				{ vs = "QuadFS.vert", fs = "DepthDownsample.frag", defines="TO_HALF" }
+
+resource "Shader" "CloudDepth"					{ vs = "QuadFS.vert", fs = "DepthDownsample.frag", cs = "DepthDownsample.comp", defines="TO_QUARTER" }
+
+resource "Shader" "CloudFluffySuperCoarseUndulate"{ vs = "QuadFS.vert", fs = "CloudFluffy.frag", cs = "CloudFluffy.comp", defines="CLOUD_JITTER SUPER_COARSE UNDULATE SINE_TEXTURE" }
+resource "Shader" "CloudFluffyCoarseUndulate"	{ vs = "QuadFS.vert", fs = "CloudFluffy.frag", cs = "CloudFluffy.comp", defines="CLOUD_JITTER COARSE UNDULATE SINE_TEXTURE" }
+resource "Shader" "CloudFluffyUndulate"			{ vs = "QuadFS.vert", fs = "CloudFluffy.frag", cs = "CloudFluffy.comp", defines="CLOUD_JITTER UNDULATE SINE_TEXTURE" }
+resource "Shader" "CloudFluffySuperCoarse"		{ vs = "QuadFS.vert", fs = "CloudFluffy.frag", cs = "CloudFluffy.comp", defines="CLOUD_JITTER SUPER_COARSE" }
+resource "Shader" "CloudFluffyCoarse"			{ vs = "QuadFS.vert", fs = "CloudFluffy.frag", cs = "CloudFluffy.comp", defines="CLOUD_JITTER COARSE" }
+resource "Shader" "CloudFluffy"					{ vs = "QuadFS.vert", fs = "CloudFluffy.frag", cs = "CloudFluffy.comp", defines="CLOUD_JITTER" }
+resource "Shader" "CloudComplexity"				{ vs = "QuadFS.vert", fs = "CloudFluffy.frag", cs = "CloudFluffy.comp", defines="CLOUD_JITTER COMPLEXITY" }
+resource "Shader" "CloudBlur"					{ vs = "QuadFS.vert", fs = "CloudBlur.frag", defines="" }
+
+resource "Shader" "BlendedDepth"				{ vs = "QuadFS.vert", fs = "BlendedDepth.frag", defines="" }
+resource "Shader" "RainDrop"					{ group = "Blended", vs = "RainDrop.vert", fs = "RainDrop.frag", defines = "" }
+resource "Shader" "FogVolume"					{ group = "FogVolume", vs = "FogVolume.vert", fs = "FogVolume.frag", toolExport = true, defines = "" }
+resource "Shader" "FogUpsampleHalf"				{ vs = "QuadFS.vert", fs = "FogUpsample.frag", defines="HALF" }
+resource "Shader" "FogUpsample"					{ vs = "QuadFS.vert", fs = "FogUpsample.frag", defines="" }
+resource "Shader" "FogUpsampleArtbook"			{ vs = "QuadFS.vert", fs = "FogUpsample.frag", defines="ARTBOOK" }
+resource "Shader" "FogUpsampleSaturationSpheres"{ vs = "QuadFS.vert", fs = "FogUpsample.frag", defines="SATURATION_SPHERES" }
+resource "Shader" "FogUpsampleCausticSpheres"	{ vs = "QuadFS.vert", fs = "FogUpsample.frag", defines="CAUSTIC_SPHERES" }
+--resource "Shader" "FogUpsampleAO"				{ vs = "QuadFS.vert", fs = "FogUpsample.frag", defines="AO" }
+resource "Shader" "FogUpsampleCheapHalf"		{ vs = "QuadFS.vert", fs = "FogUpsa
