@@ -1,0 +1,202 @@
+[
+    {
+        "fragment_type": "basic",
+        "fragments_per_subwave": 5,
+        "memory_mesh_type": "crab",
+        "name": "basicCrabWave01",
+        "number_of_subwaves": 1,
+        "wave_time": 30
+    },
+    {
+        "fragment_type": "basic",
+        "fragments_per_subwave": 6,
+        "memory_mesh_type": "crab",
+        "name": "basicCrabWave02",
+        "number_of_subwaves": 1,
+        "wave_time": 30
+    },
+    {
+        "fragment_type": "basic",
+        "fragments_per_subwave": 7,
+        "memory_mesh_type": "crab",
+        "name": "basicCrabWave03",
+        "number_of_subwaves": 1,
+        "wave_time": 45
+    },
+    {
+        "fragment_type": "basic",
+        "fragments_per_subwave": 8,
+        "memory_mesh_type": "crab",
+        "name": "basicCrabWave04",
+        "number_of_subwaves": 1,
+        "wave_time": 45
+    },
+    {
+        "fragment_type": "basic",
+        "fragments_per_subwave": 10,
+        "memory_mesh_type": "crab",
+        "name": "basicCrabWave05",
+        "number_of_subwaves": 1,
+        "wave_time": 60
+    },
+    {
+        "fragment_type": "darkstone",
+        "fragments_per_subwave": 4,
+        "memory_mesh_type": "",
+        "name": "darkplantTrapped01",
+        "number_of_subwaves": 1,
+        "wave_time": 60
+    },
+    {
+        "fragment_type": "darkstone",
+        "fragments_per_subwave": 5,
+        "memory_mesh_type": "",
+        "name": "darkplantTrapped02",
+        "number_of_subwaves": 1,
+        "wave_time": 60
+    },
+    {
+        "fragment_type": "darkstone",
+        "fragments_per_subwave": 6,
+        "memory_mesh_type": "",
+        "name": "darkplantTrapped03",
+        "number_of_subwaves": 1,
+        "wave_time": 75
+    },
+    {
+        "fragment_type": "darkstone",
+        "fragments_per_subwave": 7,
+        "memory_mesh_type": "",
+        "name": "darkplantTrapped04",
+        "number_of_subwaves": 1,
+        "wave_time": 75
+    },
+    {
+        "fragment_type": "darkstone",
+        "fragments_per_subwave": 8,
+        "memory_mesh_type": "",
+        "name": "darkplantTrapped05",
+        "number_of_subwaves": 1,
+        "wave_time": 90
+    },
+    {
+        "fragment_type": "radish",
+        "fragments_per_subwave": 4,
+        "memory_mesh_type": "crab_flipped",
+        "name": "flippedCrabWave01",
+        "number_of_subwaves": 1,
+        "wave_time": 45
+    },
+    {
+        "fragment_type": "radish",
+        "fragments_per_subwave": 5,
+        "memory_mesh_type": "crab_flipped",
+        "name": "flippedCrabWave02",
+        "number_of_subwaves": 1,
+        "wave_time": 45
+    },
+    {
+        "fragment_type": "radish",
+        "fragments_per_subwave": 6,
+        "memory_mesh_type": "crab_flipped",
+        "name": "flippedCrabWave03",
+        "number_of_subwaves": 1,
+        "wave_time": 60
+    },
+    {
+        "fragment_type": "radish",
+        "fragments_per_subwave": 7,
+        "memory_mesh_type": "crab_flipped",
+        "name": "flippedCrabWave04",
+        "number_of_subwaves": 1,
+        "wave_time": 60
+    },
+    {
+        "fragment_type": "radish",
+        "fragments_per_subwave": 8,
+        "memory_mesh_type": "crab_flipped",
+        "name": "flippedCrabWave05",
+        "number_of_subwaves": 1,
+        "wave_time": 75
+    },
+    {
+        "fragment_type": "fly",
+        "fragments_per_subwave": 5,
+        "memory_mesh_type": "manta",
+        "name": "flyingMantaWave01",
+        "number_of_subwaves": 1,
+        "wave_time": 30
+    },
+    {
+        "fragment_type": "fly",
+        "fragments_per_subwave": 6,
+        "memory_mesh_type": "manta",
+        "name": "flyingMantaWave02",
+        "number_of_subwaves": 1,
+        "wave_time": 30
+    },
+    {
+        "fragment_type": "fly",
+        "fragments_per_subwave": 7,
+        "memory_mesh_type": "manta",
+        "name": "flyingMantaWave03",
+        "number_of_subwaves": 1,
+        "wave_time": 45
+    },
+    {
+        "fragment_type": "fly",
+        "fragments_per_subwave": 8,
+        "memory_mesh_type": "manta",
+        "name": "flyingMantaWave04",
+        "number_of_subwaves": 1,
+        "wave_time": 45
+    },
+    {
+        "fragment_type": "fly",
+        "fragments_per_subwave": 10,
+        "memory_mesh_type": "manta",
+        "name": "flyingMantaWave05",
+        "number_of_subwaves": 1,
+        "wave_time": 60
+    },
+    {
+        "fragment_type": "hover",
+        "fragments_per_subwave": 5,
+        "memory_mesh_type": "jellyfish",
+        "name": "hoveringJellyFishWave01",
+        "number_of_subwaves": 1,
+        "wave_time": 30
+    },
+    {
+        "fragment_type": "hover",
+        "fragments_per_subwave": 6,
+        "memory_mesh_type": "jellyfish",
+        "name": "hoveringJellyFishWave02",
+        "number_of_subwaves": 1,
+        "wave_time": 30
+    },
+    {
+        "fragment_type": "hover",
+        "fragments_per_subwave": 7,
+        "memory_mesh_type": "jellyfish",
+        "name": "hoveringJellyFishWave03",
+        "number_of_subwaves": 1,
+        "wave_time": 45
+    },
+    {
+        "fragment_type": "hover",
+        "fragments_per_subwave": 8,
+        "memory_mesh_type": "jellyfish",
+        "name": "hoveringJellyFishWave04",
+        "number_of_subwaves": 1,
+        "wave_time": 45
+    },
+    {
+        "fragment_type": "hover",
+        "fragments_per_subwave": 10,
+        "memory_mesh_type": "jellyfish",
+        "name": "hoveringJellyFishWave05",
+        "number_of_subwaves": 1,
+        "wave_time": 60
+    }
+]
