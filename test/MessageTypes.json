@@ -1,0 +1,18 @@
+[
+    {
+        "icon": "UiMessageTypeEvent",
+        "type": "event"
+    },
+    {
+        "icon": "UiMessageTypeMisc",
+        "type": "misc"
+    },
+    {
+        "icon": "UiMessageTypeContent",
+        "type": "update"
+    },
+    {
+        "icon": "UiMessageTypeUrgent",
+        "type": "urgent"
+    }
+]
