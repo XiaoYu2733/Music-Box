@@ -1,0 +1,104 @@
+[
+    {
+        "event_trigger": "CurrentOrPreorderSeasonFunction",
+        "id": 411690234,
+        "name": "ap_preorder",
+        "num_pages": 7
+    },
+    {
+        "event_trigger": "CurrentOrPreorderSeasonFunction",
+        "id": 3001712913,
+        "name": "ap_promo_test",
+        "num_pages": 9
+    },
+    {
+        "event_trigger": "",
+        "id": 1703109576,
+        "name": "howtoplay_basics",
+        "num_pages": 6
+    },
+    {
+        "event_trigger": "",
+        "id": 2381130641,
+        "name": "howtoplay_basics_v2",
+        "num_pages": 6
+    },
+    {
+        "event_trigger": "",
+        "id": 589933221,
+        "name": "howtoplay_chat",
+        "num_pages": 1
+    },
+    {
+        "event_trigger": "CurrentOrPreorderSeasonFunction",
+        "id": 2185431407,
+        "name": "howtoplay_closet",
+        "num_pages": 6
+    },
+    {
+        "event_trigger": "CurrentOrPreorderSeasonFunction",
+        "id": 515113288,
+        "name": "howtoplay_currency",
+        "num_pages": 5
+    },
+    {
+        "event_trigger": "",
+        "id": 4165102857,
+        "name": "howtoplay_event",
+        "num_pages": 3
+    },
+    {
+        "event_trigger": "",
+        "id": 1919344165,
+        "name": "howtoplay_friendship",
+        "num_pages": 6
+    },
+    {
+        "event_trigger": "",
+        "id": 713482205,
+        "name": "howtoplay_generic_shop",
+        "num_pages": 3
+    },
+    {
+        "event_trigger": "",
+        "id": 1542366054,
+        "name": "howtoplay_meta",
+        "num_pages": 4
+    },
+    {
+        "event_trigger": "",
+        "id": 2076320569,
+        "name": "howtoplay_orbitshop",
+        "num_pages": 3
+    },
+    {
+        "event_trigger": "",
+        "id": 4035051685,
+        "name": "howtoplay_revisit_npc",
+        "num_pages": 5
+    },
+    {
+        "event_trigger": "",
+        "id": 1953407107,
+        "name": "howtoplay_shared_space",
+        "num_pages": 8
+    },
+    {
+        "event_trigger": "",
+        "id": 75526759,
+        "name": "howtoplay_shop",
+        "num_pages": 7
+    },
+    {
+        "event_trigger": "",
+        "id": 1579140284,
+        "name": "howtoplay_storm",
+        "num_pages": 1
+    },
+    {
+        "event_trigger": "CurrentOrPreorderSeasonFunction",
+        "id": 2753312847,
+        "name": "retail_demo_end_screen",
+        "num_pages": 4
+    }
+]
