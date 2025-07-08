@@ -1,0 +1,306 @@
+[
+    {
+        "bst_spawner_name": "night_desert",
+        "creature_quest_def": "",
+        "intensity": [
+            1,
+            2
+        ],
+        "name": "intensity_1,2_night_desert",
+        "wave01": "FallingShards_02_NC",
+        "wave02": "FallingShards_03_NC",
+        "wave03": "DarkShroom_03_DC",
+        "wave04": "DarkShroom_Flying_02_NC",
+        "wave05": ""
+    },
+    {
+        "bst_spawner_name": "sunset_sunset",
+        "creature_quest_def": "",
+        "intensity": [
+            1,
+            2
+        ],
+        "name": "intensity_1,2_sunset_sunset",
+        "wave01": "FallingShards_02_NC",
+        "wave02": "DarkShroom_Flying_02_NC",
+        "wave03": "DarkShroom_Flying_02_NC",
+        "wave04": "",
+        "wave05": ""
+    },
+    {
+        "bst_spawner_name": "dusk_dusk",
+        "creature_quest_def": "",
+        "intensity": [
+            1
+        ],
+        "name": "intensity_1_dusk_dusk",
+        "wave01": "FallingShards_01_NC",
+        "wave02": "FallingShards_02_NC",
+        "wave03": "DarkShroom_02_NC",
+        "wave04": "",
+        "wave05": ""
+    },
+    {
+        "bst_spawner_name": "prairie_butterflyfields",
+        "creature_quest_def": "",
+        "intensity": [
+            1
+        ],
+        "name": "intensity_1_prairie_butterflyfields",
+        "wave01": "FallingShards_01_NC",
+        "wave02": "DarkShroom_Spores_01_NC",
+        "wave03": "DarkShroom_Flying_01_NC",
+        "wave04": "",
+        "wave05": ""
+    },
+    {
+        "bst_spawner_name": "prairie_wildlifepark",
+        "creature_quest_def": "",
+        "intensity": [
+            1
+        ],
+        "name": "intensity_1_prairie_wildlifepark",
+        "wave01": "DarkShroom_Cabbages_03_NC",
+        "wave02": "DarkShroom_Cabbages_03_NC",
+        "wave03": "DarkShroom_Cabbages_03_NC",
+        "wave04": "",
+        "wave05": ""
+    },
+    {
+        "bst_spawner_name": "prototyping",
+        "creature_quest_def": "creatureQuest_everything",
+        "intensity": [
+            1
+        ],
+        "name": "intensity_1_prototyping",
+        "wave01": "FallingShards_05_IC",
+        "wave02": "FallingShards_05_DC",
+        "wave03": "FallingShards_05_IC",
+        "wave04": "FallingShards_05_DC",
+        "wave05": "FallingShards_05_IC"
+    },
+    {
+        "bst_spawner_name": "rain_forest",
+        "creature_quest_def": "",
+        "intensity": [
+            1
+        ],
+        "name": "intensity_1_rain_forest",
+        "wave01": "FallingShards_01_NC",
+        "wave02": "DarkShroom_Spores_02_NC",
+        "wave03": "DarkShroom_01_NC",
+        "wave04": "DarkShroom_Cabbages_01_NC",
+        "wave05": ""
+    },
+    {
+        "bst_spawner_name": "dusk_mid",
+        "creature_quest_def": "",
+        "intensity": [
+            2
+        ],
+        "name": "intensity_2_dusk_mid",
+        "wave01": "FallingShards_02_NC",
+        "wave02": "InfestedCrab_01",
+        "wave03": "DarkShroom_Spores_02_NC",
+        "wave04": "DarkShroom_02_NC",
+        "wave05": ""
+    },
+    {
+        "bst_spawner_name": "prairie_village",
+        "creature_quest_def": "",
+        "intensity": [
+            2
+        ],
+        "name": "intensity_2_prairie_village",
+        "wave01": "FallingShards_02_NC",
+        "wave02": "DarkShroom_Flying_02_NC",
+        "wave03": "DarkShroom_Spores_02_NC",
+        "wave04": "DarkShroom_Cabbages_02_NC",
+        "wave05": ""
+    },
+    {
+        "bst_spawner_name": "prairie_wildlifepark2",
+        "creature_quest_def": "",
+        "intensity": [
+            2
+        ],
+        "name": "intensity_2_prairie_wildlifepark2",
+        "wave01": "DarkShroom_Cabbages_03_NC",
+        "wave02": "DarkShroom_Cabbages_03_NC",
+        "wave03": "DarkShroom_Cabbages_03_NC",
+        "wave04": "",
+        "wave05": ""
+    },
+    {
+        "bst_spawner_name": "rain_mid",
+        "creature_quest_def": "",
+        "intensity": [
+            2
+        ],
+        "name": "intensity_2_rain_mid",
+        "wave01": "FallingShards_02_NC",
+        "wave02": "DarkShroom_02_NC",
+        "wave03": "DarkShroom_Spores_01_NC",
+        "wave04": "DarkShroom_02_NC",
+        "wave05": ""
+    },
+    {
+        "bst_spawner_name": "night_desertbeach",
+        "creature_quest_def": "hoveringJellyFish_03",
+        "intensity": [
+            3,
+            4,
+            5
+        ],
+        "name": "intensity_3,4,5_night_desertbeach",
+        "wave01": "FallingShards_04_IC",
+        "wave02": "DarkShroom_Flying_04_NC",
+        "wave03": "DarkShroom_Spores_04_IC",
+        "wave04": "DarkShroom_04_NC",
+        "wave05": "DarkShroom_Spores_04_IC"
+    },
+    {
+        "bst_spawner_name": "sunset_village",
+        "creature_quest_def": "flyingManta_02",
+        "intensity": [
+            3,
+            4
+        ],
+        "name": "intensity_3,4_sunset_village",
+        "wave01": "FallingShards_03_DC",
+        "wave02": "DarkCrab_02",
+        "wave03": "FallingShards_03_NC",
+        "wave04": "DarkShroom_Flying_04_NC",
+        "wave05": ""
+    },
+    {
+        "bst_spawner_name": "dusk_graveyard",
+        "creature_quest_def": "flippedCrab_01",
+        "intensity": [
+            3
+        ],
+        "name": "intensity_3_dusk_graveyard",
+        "wave01": "FallingShards_03_NC",
+        "wave02": "DarkShroom_Flying_03_NC",
+        "wave03": "DarkShroom_04_NC",
+        "wave04": "DarkShroom_03_IC",
+        "wave05": ""
+    },
+    {
+        "bst_spawner_name": "prairie_cave",
+        "creature_quest_def": "basicCrab_01",
+        "intensity": [
+            3
+        ],
+        "name": "intensity_3_prairie_cave",
+        "wave01": "FallingShards_03_DC",
+        "wave02": "DarkCrab_02",
+        "wave03": "DarkShroom_Cabbages_03_NC",
+        "wave04": "DarkShroom_Cabbages_03_NC",
+        "wave05": ""
+    },
+    {
+        "bst_spawner_name": "rain_end",
+        "creature_quest_def": "darkplantTrapped_01",
+        "intensity": [
+            3
+        ],
+        "name": "intensity_3_rain_end",
+        "wave01": "FallingShards_03_IC",
+        "wave02": "InfestedCrab_01",
+        "wave03": "DarkShroom_Spores_03_DC",
+        "wave04": "DarkShroom_Flying_03_NC",
+        "wave05": "DarkShroom_Cabbages_03_NC"
+    },
+    {
+        "bst_spawner_name": "dusk_crabfield",
+        "creature_quest_def": "flippedCrab_02",
+        "intensity": [
+            4
+        ],
+        "name": "intensity_4_dusk_crabfield",
+        "wave01": "FallingShards_04_IC",
+        "wave02": "DarkCrab_03",
+        "wave03": "DarkShroom_Flying_04_NC",
+        "wave04": "DarkShroom_04_NC",
+        "wave05": "DarkShroom_05_NC"
+    },
+    {
+        "bst_spawner_name": "prairie_nestkeeper",
+        "creature_quest_def": "flyingManta_02",
+        "intensity": [
+            4
+        ],
+        "name": "intensity_4_prairie_nestkeeper",
+        "wave01": "FallingShards_04_NC",
+        "wave02": "DarkShroom_Flying_04_NC",
+        "wave03": "DarkShroom_04_NC",
+        "wave04": "DarkShroom_Flying_03_NC",
+        "wave05": "DarkShroom_Cabbages_03_NC"
+    },
+    {
+        "bst_spawner_name": "rain_basecamp",
+        "creature_quest_def": "darkplantTrapped_02",
+        "intensity": [
+            4
+        ],
+        "name": "intensity_4_rain_basecamp",
+        "wave01": "FallingShards_04_IC",
+        "wave02": "InfestedCrab_02",
+        "wave03": "DarkShroom_04_NC",
+        "wave04": "DarkShroom_Spores_03_DC",
+        "wave05": "DarkShroom_Flying_03_DC"
+    },
+    {
+        "bst_spawner_name": "dusk_oasis",
+        "creature_quest_def": "basicCrab_03",
+        "intensity": [
+            5
+        ],
+        "name": "intensity_5_dusk_oasis",
+        "wave01": "FallingShards_05_IC",
+        "wave02": "DarkShroom_Flying_04_IC",
+        "wave03": "DarkShroom_Cabbages_05_IC",
+        "wave04": "DarkShroom_Spores_04_IC",
+        "wave05": "DarkShroom_05_IC"
+    },
+    {
+        "bst_spawner_name": "prairie_island",
+        "creature_quest_def": "hoveringJellyFish_03",
+        "intensity": [
+            5
+        ],
+        "name": "intensity_5_prairie_island",
+        "wave01": "FallingShards_05_IC",
+        "wave02": "InfestedCrab_03",
+        "wave03": "DarkShroom_Spores_04_IC",
+        "wave04": "DarkShroom_05_IC",
+        "wave05": "DarkShroom_Flying_04_IC"
+    },
+    {
+        "bst_spawner_name": "rain_shelter",
+        "creature_quest_def": "hoveringJellyFish_03",
+        "intensity": [
+            5
+        ],
+        "name": "intensity_5_rain_shelter",
+        "wave01": "FallingShards_05_DC",
+        "wave02": "InfestedCrab_02",
+        "wave03": "DarkShroom_Cabbages_03_NC",
+        "wave04": "DarkShroom_05_NC",
+        "wave05": "DarkShroom_Flying_04_NC"
+    },
+    {
+        "bst_spawner_name": "sunset_yetipark",
+        "creature_quest_def": "flyingManta_03",
+        "intensity": [
+            5
+        ],
+        "name": "intensity_5_sunset_yetipark",
+        "wave01": "FallingShards_05_IC",
+        "wave02": "InfestedCrab_03",
+        "wave03": "DarkShroom_Flying_04_NC",
+        "wave04": "DarkShroom_Flying_04_NC",
+        "wave05": "DarkShroom_Flying_04_IC"
+    }
+]
