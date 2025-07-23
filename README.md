@@ -5,6 +5,8 @@
 [![Telegram](https://img.shields.io/static/v1?label=Telegram&message=Chat&color=0088cc)](https://t.me/XiaoYu_Chat)
 </div>
 
++- 一切旨在开发学习，请勿用于非法用途。
+
 ---
 
 | 常见问题 | 支持游戏                               |
